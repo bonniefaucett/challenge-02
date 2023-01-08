@@ -1,0 +1,81 @@
+body {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.3;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1%;
+  background-color: #13293d;
+  color: #fff;
+}
+
+nav {
+  display: flex;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  justify-content: space-between;
+  min-width: 300px;
+  background-size: cover;
+  background-position: center;
+}
+
+.hero {
+  background-image: url("./sunrise.jpg")
+}
+
+h1 {
+  font-size: 200%;
+}
+
+h2 {
+  margin: 2% 0;
+  font-size: 250%;
+}
+
+aside {
+  justify-content: right;
+}
+
+article {
+  justify-content: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+}
+
+.about {
+  display: inline-block;
+}
+
+.work {
+  display: inline-block;
+}
+
+.contact {
+  display: inline-block;
+}
+
+.left-column {
+  float: left;
+  border: 3px solid #fff;
+  padding: 20px;
+  min-width: 250px;
+}
+
+.right-column {
+  float: left;
+  border: 2px solid red;
+  padding: 20px;
+}
+
+.contact-info {
+  display: inline-block;
+  padding: 20px;
+}
