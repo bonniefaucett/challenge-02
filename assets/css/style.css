@@ -81,7 +81,6 @@ header nav ul li a:hover {
 }
 
 .hero .hero-quote {
-  display: flex;
   font-size: 35px;
   line-height: 1.5;
   text-align: center;
@@ -233,13 +232,13 @@ footer ul li a:hover {
 /* Media query for tablet screens and max width screens of 1024px */
 @media screen and (max-width: 1024px) {
   header h1 {
-    font-size: 20px;
+    
     letter-spacing: 1.5px;
   }
 
   header nav ul li a {
     padding: 4px;
-    font-size: 15px;
+   font-size: 15px;
   }
 
   .hero .hero-quote {
@@ -271,16 +270,46 @@ footer ul li a {
   font-weight: normal;
 }
 
-/* Media query for mobile phone screens and max width screens of 844px */
-@media screen and (max-width: 844px) {
+@media screen and (max-width: 846px) {
   header {
-    justify-content: center;
-    padding: 20px;
+    width: 100%;
   }
+  header div {
+    height: 100%;
+  }
+  header h1 {
+    background-color: var(--secondary);
+    border: 5px solid var(--secondary);
+    padding: 10px;
+  }
+  header nav {
+    margin-right: 0;
+  }
+  header nav ul li a  {
+    font-size: 18px;
+  }
+  section {
+    display: block;
+  }
+  .section-title {
+    border-right: none;
+    text-align: center;
+    min-width: 0;
+    max-width: 100%;
+    padding-right: 0;
+  }
+  .projects-grid {
+    margin-left: auto;
+    margin-right: auto;
+   
+  }
+  footer ul li {
+    padding: 8px;
+  }
+}
 
-  header nav ul {
-    min-height: 80px;
-  }
+/* Media query for mobile phone screens and max width screens of 844px */
+@media screen and (max-width: 822px) {
 
   .hero {
     flex-direction: column;
@@ -335,9 +364,25 @@ footer ul li a {
   .contact-items {
     width: 100%;
   }
+  footer ul {
+    margin-top: 15px
+  }
 
   footer ul li {
-    padding: 30px;
+    padding: 15px;
     text-align: center;
   }
+} 
+
+@media screen and (max-width: 812px) {
+  header div {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  header div nav {
+   
+  
+  }
+
 }
+
