@@ -132,7 +132,7 @@ header nav ul li a:hover {
   padding: 30px;
 }
 
-.projects-grid-wrapper {
+.project-grid-wrapper {
   display: flex;
   width: 80%;
   height: 500px;
@@ -140,7 +140,7 @@ header nav ul li a:hover {
   justify-content: left;
 }
 
-.projects-grid {
+.project-grid {
   width: 70%;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -229,24 +229,32 @@ footer ul li a:hover {
   align-items: center;
 }
 
+/* Media query for tablet screens and max width screens of 1088px */
+@media screen and (max-width: 1088px) {
+
+  .hero .hero-quote {
+    margin: 30px;
+    padding: 20px;
+    font-size: 24px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+
 /* Media query for tablet screens and max width screens of 1024px */
 @media screen and (max-width: 1024px) {
   header h1 {
-    
     letter-spacing: 1.5px;
   }
 
   header nav ul li a {
     padding: 4px;
-   font-size: 15px;
+    font-size: 15px;
   }
 
   .hero .hero-quote {
     margin: 30px;
     padding: 20px;
-  }
-
-  .hero .hero-quote {
     font-size: 24px;
   }
 
@@ -270,6 +278,7 @@ footer ul li a {
   font-weight: normal;
 }
 
+/* Media query for mobile phone screens and max width screens of 846px */
 @media screen and (max-width: 846px) {
   header {
     width: 100%;
@@ -285,9 +294,6 @@ footer ul li a {
   header nav {
     margin-right: 0;
   }
-  header nav ul li a  {
-    font-size: 18px;
-  }
   section {
     display: block;
   }
@@ -297,20 +303,25 @@ footer ul li a {
     min-width: 0;
     max-width: 100%;
     padding-right: 0;
+    line-height: 1.5;
   }
-  .projects-grid {
+
+  .about-copy {
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+  }
+  .project-grid {
     margin-left: auto;
     margin-right: auto;
-   
   }
   footer ul li {
     padding: 8px;
   }
 }
 
-/* Media query for mobile phone screens and max width screens of 844px */
+/* Media query for mobile phone screens and max width screens of 822px */
 @media screen and (max-width: 822px) {
-
   .hero {
     flex-direction: column;
   }
@@ -321,15 +332,6 @@ footer ul li a {
 
   .about {
     flex-direction: column;
-  }
-
-  .title {
-    border-bottom: 5px solid var(--pop);
-    border-right: none;
-    text-align: center;
-    min-width: 100%;
-    max-width: 100%;
-    padding: 0;
   }
 
   .about p {
@@ -344,12 +346,12 @@ footer ul li a {
     padding: 30px 0;
   }
 
-  .projects-grid-wrapper {
+  .project-grid-wrapper {
     width: 100%;
     padding: 10px;
   }
 
-  .projects-grid {
+  .project-grid {
     width: 80%;
   }
 
@@ -359,30 +361,21 @@ footer ul li a {
 
   footer ul {
     flex-direction: column;
+    margin-top: 15px;
   }
 
   .contact-items {
     width: 100%;
-  }
-  footer ul {
-    margin-top: 15px
   }
 
   footer ul li {
     padding: 15px;
     text-align: center;
   }
-} 
+}
 
 @media screen and (max-width: 812px) {
   header div {
     margin-left: auto;
     margin-right: auto;
   }
-  header div nav {
-   
-  
-  }
-
-}
-
