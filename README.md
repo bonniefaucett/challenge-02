@@ -17,4 +17,4 @@ The portfolio satisfies the following requirements:
 ![Project Screenshot](/assets/images/deployed-application.png)
 
 ## link to deployed application
-https://github.com/bonniefaucett/challenge-02
+https://bonniefaucett.github.io/challenge-02/
