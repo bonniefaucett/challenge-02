@@ -1,20 +1,20 @@
 # portfolio
 
-Advanced CSS Challenge: Professional Portfolio
+Advanced CSS: Portfolio
 
-For this challenge I wrote the HTML and CSS for a sample professional portfolio which will be added to over time to become my own personal portfolio of work. I used what I have learned in the first two weeks of the bootcamp to write the HTML and CSS from scratch, while keeping in mind the following requirements:
+## description
 
-- Site is divided into several sections, including About Me, My Work, and Contact Info.
-- I included functioning navigation links at the top of the page to take the user to any of the sections
-- I included a link to a PDF of my resume (not current).
-- I included a recent photo of myself.
-- The projects presented in the My Work section include a couple of sample programs I have worked on for the bootcamp as well as some placeholder applications that will be added to as I complete more applications in the bootcamp and on my own.
-- The non-placholder applications will take the user to the deployed application on my GitHub when clicked on.
-- The page was styled for multiple screen sizes, including tablets and mobile phones.
-- I also included some on hover effects for the various links and the projects on the page.
+For this challenge, I created a portfolio of work to showcase my skills and talents to potential employers. The portfolio will be a living collection that I can add to over time as a gain more experience.
 
-Link to deployed application:
-https://jdlawton.github.io/portfolio/
+The portfolio satisfies the following requirements:
+* When the viewer clicks the URL to my portfolio, they are presented with my name, a recent photo, and links to sections about me, about my work, and how to contact me;
+* When the viewer clicks on a link in the navigation, they are taken to the relevant portion of the page;
+* When the viewer is viewing the My Work section, they are presented with titled images of my work, the first and largest of which is the first application I worked on;
+* When the viewer clicks on the images for each project, the viewer is taken to the deployed application; and
+* When the viewer's viewport changes size, the design is responsive and adapts to the viewport appropriately.
 
-![Project Screenshot](/portfolioscreenshot.png?raw=true)
+## portfolio screenshot
+![Project Screenshot](/assets/images/deployed-application.png)
 
+## link to deployed application
+https://github.com/bonniefaucett/challenge-02
